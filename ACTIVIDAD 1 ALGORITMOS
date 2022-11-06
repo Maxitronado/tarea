@@ -1,3 +1,16 @@
-# tarea
-Inicio
-Parametros : Carrito , Menu y Promociones
+Proceso CalcularTotalAPagar
+Parametros: Carrito , Menu , Promociones
+Variables: Total , Descuento
+Por cada Item del Menu y su Cantidad en el Carrito, se debe:
+ Calcular Precio del Item del Menu
+ Actualizar Total , Agregando Valor del Item
+Si Carrito Inlcuye Pizza de 3 Ingredientes y 1 Refresco Grande , se debe:
+ Incluir Descuento de 20%
+Sino si Carrito Incluye Pizza 2 Ingredientes y 1 Refresco Chico , se debe:
+ Incluir Descuento de 15%
+Sino si Carrito Incluye Pizza Basica y 1 Refresco Chico , se debe: 
+ Incluir Descuento de 10%
+Si existe Descuento , se debe:
+ Aplicar Descuento en el Total de la Compra 
+Regresar al Total de la Compra
+FinProceso
